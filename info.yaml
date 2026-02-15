@@ -1,17 +1,18 @@
-# Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
-  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  title:        "TinyDCIM: RISC-V CPU with Digital Compute-in-Memory Accelerator"
+  author:       "Ezra Wolf"
+  discord:      "erstfeld" # Optional
+  description:  "A RISC-V compatible 8b CPU based in TinyQV with a digital compute-in-memory accelerator based on SRAM arrays."
+  language:     "Verilog" # Valid: Verilog, SystemVerilog, Amaranth, VHDL, etc.
+  clock_hz:     50000000 # Clock Hz (or 0 if N/A)
 
-  # How many tiles your design occupies? A single tile is about 167x108 uM.
-  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+  # A single tile is about 167x108 uM
+  # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+  tiles: "8x2"
 
-  # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  # Top module name - must start with "tt_um_"
+  # Make it unique with your GitHub username.
+  top_module:  "tt_um_ezrawolf_tinydcim_ihp26a"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
@@ -52,5 +53,5 @@ pinout:
   uio[6]: ""
   uio[7]: ""
 
-# Do not change!
+# DO NOT CHANGE
 yaml_version: 6
