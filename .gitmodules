@@ -1,0 +1,3 @@
+[submodule "TinyMOA"]
+	path = TinyMOA
+	url = https://github.com/EzraWolf/TinyMOA.git
