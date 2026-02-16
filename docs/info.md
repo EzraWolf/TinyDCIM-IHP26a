@@ -19,3 +19,16 @@ WIP
 
 List external hardware used in your project (e.g. PMOD, LED display, etc), if any
 WIP
+
+## Setup
+
+- Download VSCode or alternative code editor
+- Create the IHP26a implementation through the template here https://github.com/TinyTapeout/ttihp-verilog-template
+- Create the main TinyDCIM repo
+- Setup code skeletons & link main repo to the IHP26a repo through submodule
+- Get dummy counter sanity test working with GDS and submit through TT site
+
+
+- Download KLayout
+- Download IHP PDK https://github.com/IHP-GmbH/IHP-Open-PDK
+- Copy right files (?) to KLayout
